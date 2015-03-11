@@ -74,7 +74,7 @@ class RegisterViewController: UITableViewController {
 //        }
         
         var user = FCUser()
-        user.username = name
+        user.username = name.lowercaseString
         user.fullName = name
         user.password = password
         user.email = email

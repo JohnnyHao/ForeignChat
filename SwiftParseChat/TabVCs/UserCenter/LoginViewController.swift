@@ -33,10 +33,11 @@ class LoginViewController: UITableViewController {
     }
     
     @IBAction func loginButtonPressed(sender: UIButton) {
-        let email = emailField.text.lowercaseString
+        // regist and login all use lowercase string.
+        let userName = emailField.text.lowercaseString
         let password = passwordField.text
         
-        if countElements(email) == 0 {
+        if countElements(userName) == 0 {
             ProgressHUD.showError("Email field is empty.")
             return
         } else {
@@ -44,7 +45,7 @@ class LoginViewController: UITableViewController {
         }
         
         ProgressHUD.show("Signing in...", interaction: true)
-        PFUser.logInWithUsernameInBackground(email, password: password) { (user: PFUser!, error: NSError!) -> Void in
+        PFUser.logInWithUsernameInBackground(userName, password: password) { (user: PFUser!, error: NSError!) -> Void in
             if user != nil {
                 PushNotication.parsePushUserAssign()
                 ProgressHUD.showSuccess("Welcome back, \(user[PF_USER_FULLNAME])!")

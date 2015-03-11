@@ -14,6 +14,10 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     @IBOutlet var nameField: UITextField!
     @IBOutlet var imageButton: UIButton!
 
+    var currentUser:FCUser?
+    var pictureFile:PFFile?
+    var thumbnailFile:PFFile?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -45,16 +49,23 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     }
     
     func loadUser() {
-        var currentUser = FCUser.currentUser()
-        
+        var fcUser = FCUser.currentUser()
         var query = FCUser.query()
-        query.getObjectInBackgroundWithId(currentUser.objectId) {
+        query.getObjectInBackgroundWithId(fcUser.objectId) {
             (pfObject: PFObject!, error: NSError!) -> Void in
             if pfObject != nil {
-                var user = pfObject as FCUser
-                var gender = user.gender
-                println("name: \(user.gender)") //nil
-                self.nameField.text = user.fullName as String
+                self.currentUser = pfObject as FCUser!
+                var gender = self.currentUser?.gender
+                println("name: \(self.currentUser?.gender)") //nil
+                self.nameField.text = self.currentUser?.fullName as String?
+                if self.self.currentUser?.picture != nil {
+                    var data = self.currentUser?.thumbnail?.getData()
+                    if data != nil {
+                        var image = UIImage(data: data!)
+                        image = Images.resizeImage(image!, width: 60, height: 60)!
+                        self.userImageView.image = image
+                    }
+                }
             } else {
                 println(error)
             }
@@ -66,16 +77,24 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     func saveUser() {
         let fullName = nameField.text
         if countElements(fullName) > 0 {
-            var user = PFUser.currentUser()
-            user[PF_USER_FULLNAME] = fullName
-            user[PF_USER_FULLNAME_LOWER] = fullName.lowercaseString
-            user.saveInBackgroundWithBlock({ (succeeded: Bool, error: NSError!) -> Void in
-                if error == nil {
-                    ProgressHUD.showSuccess("Saved")
-                } else {
-                    ProgressHUD.showError("Network error")
+//            var user = PFUser.currentUser()
+//            user.saveInBackgroundWithBlock({ (succeeded: Bool, error: NSError!) -> Void in
+//                if error == nil {
+//                    ProgressHUD.showSuccess("Saved")
+//                } else {
+//                    ProgressHUD.showError("Network error")
+//                }
+//            })
+            if currentUser != nil {
+                currentUser!.picture = pictureFile
+                currentUser!.thumbnail = thumbnailFile
+                currentUser!.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
+                    if error != nil {
+                        ProgressHUD.showError("Network error")
+                    }
                 }
-            })
+            }
+            
         } else {
             ProgressHUD.showError("Name field must not be empty")
         }
@@ -126,8 +145,8 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
             image = Images.resizeImage(image, width: 280, height: 280)!
         }
         
-        var pictureFile = PFFile(name: "picture.jpg", data: UIImageJPEGRepresentation(image, 0.6))
-        pictureFile.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
+        pictureFile = PFFile(name: "picture.jpg", data: UIImageJPEGRepresentation(image, 0.6))
+        pictureFile?.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
             if error != nil {
                 ProgressHUD.showError("Network error")
             }
@@ -139,22 +158,32 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
             image = Images.resizeImage(image, width: 60, height: 60)!
         }
         
-        var thumbnailFile = PFFile(name: "thumbnail.jpg", data: UIImageJPEGRepresentation(image, 0.6))
-        thumbnailFile.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
+        thumbnailFile = PFFile(name: "thumbnail.jpg", data: UIImageJPEGRepresentation(image, 0.6))
+        thumbnailFile?.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
             if error != nil {
                 ProgressHUD.showError("Network error")
             }
         }
         
-        var user = PFUser.currentUser()
-        user[PF_USER_PICTURE] = pictureFile
-        user[PF_USER_THUMBNAIL] = thumbnailFile
-        user.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
-            if error != nil {
-                ProgressHUD.showError("Network error")
+//        var user = PFUser.currentUser()
+//        user[PF_USER_PICTURE] = pictureFile
+//        user[PF_USER_THUMBNAIL] = thumbnailFile
+//        user.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
+//            if error != nil {
+//                ProgressHUD.showError("Network error")
+//            }
+//        }
+        
+        if currentUser != nil {
+            currentUser!.picture = pictureFile!
+            currentUser!.thumbnail = thumbnailFile!
+            currentUser!.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
+                if error != nil {
+                    ProgressHUD.showError("Network error")
+                }
             }
         }
-        
+
         picker.dismissViewControllerAnimated(true, completion: nil)
     }
 

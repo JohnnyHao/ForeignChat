@@ -122,6 +122,9 @@
 		9DAE93461AB0292300ED12B7 /* tab_messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831C193F1A98085B000FD6D0 /* tab_messages@2x.png */; };
 		9DAE93471AB0292300ED12B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8348BEBA1A9AB1E000A50EE6 /* Info.plist */; };
 		9DAE93481AB0292300ED12B7 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B4F5831AA1713B00C09791 /* JSQMessagesCollectionViewCellOutgoing.xib */; };
+		9DAE93511AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */; };
+		9DAE93521AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */; };
+		9DAE93531AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */; };
 		9DE150941AAEEE550097EC07 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A20E81A99E372003248CE /* ProgressHUD.m */; };
 		9DE150951AAEEE550097EC07 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F57F1AA1713B00C09791 /* JSQMessagesCollectionViewCellIncoming.m */; };
 		9DE150961AAEEE550097EC07 /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1DE81AA413E500198FBF /* APContact.m */; };
@@ -430,6 +433,7 @@
 		83ED1DF51AA45CAA00198FBF /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeignChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ForeignChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/ForeignChat copy-Info.plist"; sourceTree = "<absolute>"; };
+		9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCBaseServerObj.swift; sourceTree = "<group>"; };
 		9DE1510C1AAEEE550097EC07 /* SwiftParseChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftParseChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE1510D1AAEEE560097EC07 /* SwiftParseChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftParseChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat copy-Info.plist"; sourceTree = "<absolute>"; };
 		9DE1510F1AAEF3680097EC07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -957,6 +961,7 @@
 			children = (
 				9DE151121AAEF3870097EC07 /* Constants.swift */,
 				9DE151461AAFF4F00097EC07 /* FCUser.swift */,
+				9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */,
 			);
 			path = ServerModel;
 			sourceTree = "<group>";
@@ -1255,6 +1260,7 @@
 			files = (
 				9DE1513D1AAEF4FA0097EC07 /* LoginViewController.swift in Sources */,
 				9DE151351AAEF4FA0097EC07 /* SelectMultipleViewController.swift in Sources */,
+				9DAE93511AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */,
 				9DE151391AAEF4FA0097EC07 /* MessagesCell.swift in Sources */,
 				9DE1513B1AAEF4FA0097EC07 /* MessagesViewController.swift in Sources */,
 				9DE151311AAEF4FA0097EC07 /* PrivateViewController.swift in Sources */,
@@ -1279,6 +1285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAE92D51AB0292300ED12B7 /* SearchViewController.swift in Sources */,
+				9DAE93531AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */,
 				9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */,
 				9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				9DAE92D81AB0292300ED12B7 /* APContact.m in Sources */,
@@ -1356,6 +1363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE151341AAEF4FA0097EC07 /* SearchViewController.swift in Sources */,
+				9DAE93521AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */,
 				9DE150941AAEEE550097EC07 /* ProgressHUD.m in Sources */,
 				9DE150951AAEEE550097EC07 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				9DE150961AAEEE550097EC07 /* APContact.m in Sources */,
