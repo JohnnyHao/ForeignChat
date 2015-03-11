@@ -124,7 +124,7 @@ class GroupsViewController: UITableViewController, UIAlertViewDelegate {
         
         Messages.createMessageItem(PFUser(), groupId: groupId, description: group[PF_GROUPS_NAME] as String)
         
-        self.performSegueWithIdentifier("groupChatSegue", sender: groupId)
+        //self.performSegueWithIdentifier("groupChatSegue", sender: groupId)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

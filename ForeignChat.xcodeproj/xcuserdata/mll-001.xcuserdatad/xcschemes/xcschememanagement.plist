@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ForeignChat copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ForeignChat.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ForeignChatTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>831C19271A97F5CA000FD6D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DAE92D21AB0292300ED12B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

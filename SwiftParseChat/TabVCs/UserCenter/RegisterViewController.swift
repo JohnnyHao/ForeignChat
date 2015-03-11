@@ -53,13 +53,32 @@ class RegisterViewController: UITableViewController {
 
         ProgressHUD.show("Please wait...", interaction: false)
         
-        var user = PFUser()
-        user.username = email
+//        var user = PFUser()
+//        user.username = name
+//        
+//        user.password = password
+//        user.email = email
+//        user[PF_USER_EMAILCOPY] = email
+//        user[PF_USER_FULLNAME] = name
+//        user[PF_USER_FULLNAME_LOWER] = name.lowercaseString
+//        user.signUpInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
+//            if error == nil {
+//                PushNotication.parsePushUserAssign()
+//                ProgressHUD.showSuccess("Succeeded.")
+//                self.dismissViewControllerAnimated(true, completion: nil)
+//            } else {
+//                if let userInfo = error.userInfo {
+//                    ProgressHUD.showError(userInfo["error"] as String)
+//                }
+//            }
+//        }
+        
+        var user = FCUser()
+        user.username = name
+        user.fullName = name
         user.password = password
         user.email = email
-        user[PF_USER_EMAILCOPY] = email
-        user[PF_USER_FULLNAME] = name
-        user[PF_USER_FULLNAME_LOWER] = name.lowercaseString
+        user.gender = NSNumber(char: 1)
         user.signUpInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
             if error == nil {
                 PushNotication.parsePushUserAssign()

@@ -28,7 +28,7 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        if let currentUser = PFUser.currentUser() {
+        if let currentUser = FCUser.currentUser() {
             self.loadUser()
         } else {
             Utilities.loginUser(self)
@@ -45,16 +45,22 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     }
     
     func loadUser() {
-        var user = PFUser.currentUser()
+        var currentUser = FCUser.currentUser()
         
-        userImageView.file = user[PF_USER_PICTURE] as? PFFile
-        userImageView.loadInBackground { (image: UIImage!, error: NSError!) -> Void in
-            if error != nil {
+        var query = FCUser.query()
+        query.getObjectInBackgroundWithId(currentUser.objectId) {
+            (pfObject: PFObject!, error: NSError!) -> Void in
+            if pfObject != nil {
+                var user = pfObject as FCUser
+                var gender = user.gender
+                println("name: \(user.gender)") //nil
+                self.nameField.text = user.fullName as String
+            } else {
                 println(error)
             }
         }
+
         
-        nameField.text = user[PF_USER_FULLNAME] as String
     }
     
     func saveUser() {
