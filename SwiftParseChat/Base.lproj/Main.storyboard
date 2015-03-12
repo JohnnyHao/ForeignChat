@@ -703,7 +703,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile_blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRc-fL-eoK" customClass="PFImageView">
-                                                    <rect key="frame" x="30" y="8" width="70" height="70"/>
+                                                    <rect key="frame" x="20" y="8" width="70" height="70"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ty-Rh-CjA">
                                                     <rect key="frame" x="108" y="55" width="132" height="23"/>
@@ -720,14 +720,14 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gm7-ol-sXN" id="DoN-xc-klo">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ptm-yx-huG">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1003" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ptm-yx-huG">
                                                     <rect key="frame" x="85" y="15" width="113" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbb-92-i1L">
-                                                    <rect key="frame" x="30" y="5" width="40" height="40"/>
+                                                <imageView userInteractionEnabled="NO" tag="1002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_edit" translatesAutoresizingMaskIntoConstraints="NO" id="jbb-92-i1L">
+                                                    <rect key="frame" x="20" y="5" width="30" height="30"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -1012,6 +1012,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icon_edit" width="16" height="16"/>
         <image name="profile_blank.png" width="70" height="70"/>
         <image name="tab_group.png" width="30" height="30"/>
         <image name="tab_messages.png" width="30" height="30"/>

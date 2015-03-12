@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		831C192F1A97F5CA000FD6D0 /* SwiftParseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */; };
+		9D2D83861AB18376001FE677 /* FCUserCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83851AB18376001FE677 /* FCUserCenter.storyboard */; };
+		9D2D83871AB18376001FE677 /* FCUserCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83851AB18376001FE677 /* FCUserCenter.storyboard */; };
+		9D2D83881AB18376001FE677 /* FCUserCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83851AB18376001FE677 /* FCUserCenter.storyboard */; };
+		9D2D838A1AB1838F001FE677 /* FCMessages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83891AB1838F001FE677 /* FCMessages.storyboard */; };
+		9D2D838B1AB1838F001FE677 /* FCMessages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83891AB1838F001FE677 /* FCMessages.storyboard */; };
+		9D2D838C1AB1838F001FE677 /* FCMessages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83891AB1838F001FE677 /* FCMessages.storyboard */; };
+		9D2D838E1AB183A1001FE677 /* FCFounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */; };
+		9D2D838F1AB183A1001FE677 /* FCFounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */; };
+		9D2D83901AB183A1001FE677 /* FCFounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */; };
 		9DAE92D51AB0292300ED12B7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1511E1AAEF4FA0097EC07 /* SearchViewController.swift */; };
 		9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A20E81A99E372003248CE /* ProgressHUD.m */; };
 		9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F57F1AA1713B00C09791 /* JSQMessagesCollectionViewCellIncoming.m */; };
@@ -431,6 +440,9 @@
 		83ED1DED1AA413E500198FBF /* APTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTypes.h; sourceTree = "<group>"; };
 		83ED1DEF1AA413E500198FBF /* APAddressBook-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-Bridging.h"; sourceTree = "<group>"; };
 		83ED1DF51AA45CAA00198FBF /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		9D2D83851AB18376001FE677 /* FCUserCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCUserCenter.storyboard; sourceTree = "<group>"; };
+		9D2D83891AB1838F001FE677 /* FCMessages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCMessages.storyboard; sourceTree = "<group>"; };
+		9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCFounds.storyboard; sourceTree = "<group>"; };
 		9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeignChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ForeignChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/ForeignChat copy-Info.plist"; sourceTree = "<absolute>"; };
 		9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCBaseServerObj.swift; sourceTree = "<group>"; };
@@ -918,6 +930,7 @@
 		9DE151181AAEF4FA0097EC07 /* Founds */ = {
 			isa = PBXGroup;
 			children = (
+				9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */,
 			);
 			path = Founds;
 			sourceTree = "<group>";
@@ -941,6 +954,7 @@
 			children = (
 				9DE151221AAEF4FA0097EC07 /* MessagesCell.swift */,
 				9DE151231AAEF4FA0097EC07 /* MessagesViewController.swift */,
+				9D2D83891AB1838F001FE677 /* FCMessages.storyboard */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -952,6 +966,7 @@
 				9DE151261AAEF4FA0097EC07 /* ProfileViewController.swift */,
 				9DE151271AAEF4FA0097EC07 /* RegisterViewController.swift */,
 				9DE151281AAEF4FA0097EC07 /* WelcomeViewController.swift */,
+				9D2D83851AB18376001FE677 /* FCUserCenter.storyboard */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
@@ -1097,6 +1112,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2D83861AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
+				9D2D838E1AB183A1001FE677 /* FCFounds.storyboard in Resources */,
+				9D2D838A1AB1838F001FE677 /* FCMessages.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1109,6 +1127,7 @@
 				9DAE93351AB0292300ED12B7 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				9DAE93361AB0292300ED12B7 /* JSQMessages.strings in Resources */,
 				9DAE93371AB0292300ED12B7 /* Default-568h@2x.png in Resources */,
+				9D2D83881AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
 				9DAE93381AB0292300ED12B7 /* chat_blank@2x.png in Resources */,
 				9DAE93391AB0292300ED12B7 /* ProgressHUD.bundle in Resources */,
 				9DAE933A1AB0292300ED12B7 /* profile_blank@2x.png in Resources */,
@@ -1116,9 +1135,11 @@
 				9DAE933C1AB0292300ED12B7 /* messages_blank@2x.png in Resources */,
 				9DAE933D1AB0292300ED12B7 /* tab_private@2x.png in Resources */,
 				9DAE933E1AB0292300ED12B7 /* JSQMessagesAssets.bundle in Resources */,
+				9D2D838C1AB1838F001FE677 /* FCMessages.storyboard in Resources */,
 				9DAE933F1AB0292300ED12B7 /* JSQMessagesViewController.xib in Resources */,
 				9DAE93401AB0292300ED12B7 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				9DAE93411AB0292300ED12B7 /* JSQMessagesToolbarContentView.xib in Resources */,
+				9D2D83901AB183A1001FE677 /* FCFounds.storyboard in Resources */,
 				9DAE93421AB0292300ED12B7 /* LaunchScreen.xib in Resources */,
 				9DAE93431AB0292300ED12B7 /* Images.xcassets in Resources */,
 				9DAE93441AB0292300ED12B7 /* Images.xcassets in Resources */,
@@ -1138,6 +1159,7 @@
 				9DE150F31AAEEE550097EC07 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				9DE150F41AAEEE550097EC07 /* JSQMessages.strings in Resources */,
 				9DE150F51AAEEE550097EC07 /* Default-568h@2x.png in Resources */,
+				9D2D83871AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
 				9DE150F61AAEEE550097EC07 /* chat_blank@2x.png in Resources */,
 				9DE150F71AAEEE550097EC07 /* ProgressHUD.bundle in Resources */,
 				9DE150F81AAEEE550097EC07 /* profile_blank@2x.png in Resources */,
@@ -1145,9 +1167,11 @@
 				9DE150FA1AAEEE550097EC07 /* messages_blank@2x.png in Resources */,
 				9DE150FB1AAEEE550097EC07 /* tab_private@2x.png in Resources */,
 				9DE150FC1AAEEE550097EC07 /* JSQMessagesAssets.bundle in Resources */,
+				9D2D838B1AB1838F001FE677 /* FCMessages.storyboard in Resources */,
 				9DE150FD1AAEEE550097EC07 /* JSQMessagesViewController.xib in Resources */,
 				9DE150FE1AAEEE550097EC07 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				9DE150FF1AAEEE550097EC07 /* JSQMessagesToolbarContentView.xib in Resources */,
+				9D2D838F1AB183A1001FE677 /* FCFounds.storyboard in Resources */,
 				9DE151001AAEEE550097EC07 /* LaunchScreen.xib in Resources */,
 				9DE151011AAEEE550097EC07 /* Images.xcassets in Resources */,
 				9DE151021AAEEE550097EC07 /* Images.xcassets in Resources */,

@@ -12,6 +12,9 @@ private let kIconCellIndentifier  = "IconCellIndentifier"
 private let kNormalCellIndentifier = "NormalCellIndentifier"
 
 
+//let kAccountBGColor = UIColor(red: 243.0/255.0, green: 244.0/255.0, blue: 248.0/255.0, alpha: 1.0)
+let kAccountBGColor =       UIColor.groupTableViewBackgroundColor()
+
 class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var profileTableView: UITableView!
@@ -24,6 +27,9 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = kAccountBGColor
+        self.profileTableView.backgroundColor = kAccountBGColor
+        
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "dismissKeyboard"))
     }
     
@@ -90,6 +96,10 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     
     private let kUserIconViewTag = 1000
     private let kUserNameLabelTag = 1001
+    
+    
+    private let kNormalCellIconTag = 1002
+    private let kNormalCellLabelTag = 1003
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
@@ -99,6 +109,7 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
             var userIcon = cell.viewWithTag(kUserIconViewTag)
             if self.userIcon != nil {
                 (userIcon as PFImageView).image = self.userIcon
+                (userIcon as PFImageView).layer.cornerRadius = 3
             }
             var userNameLable = cell.viewWithTag(kUserNameLabelTag)
             if  self.userName != nil {
@@ -107,7 +118,8 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
         }
         else {
             cell = tableView.dequeueReusableCellWithIdentifier(kNormalCellIndentifier) as UITableViewCell
-            cell.detailTextLabel?.textColor = UIColor.lightGrayColor()
+             var textLable = cell.viewWithTag(kNormalCellLabelTag)
+             (textLable as UILabel).text = "My Posts"
         }
         cell.accessoryType =  .DisclosureIndicator
         return cell

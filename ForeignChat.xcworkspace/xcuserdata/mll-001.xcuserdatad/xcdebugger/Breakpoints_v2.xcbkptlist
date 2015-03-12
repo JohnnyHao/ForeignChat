@@ -278,11 +278,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836395.263723"
+            timestampString = "447839542.492183"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -294,11 +294,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836395.263723"
+            timestampString = "447839542.492183"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -310,11 +310,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836395.263723"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
             landmarkName = "logout()"
             landmarkType = "5">
          </BreakpointContent>
@@ -326,11 +326,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836395.263723"
+            timestampString = "447839542.492183"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "tableView(_:titleForHeaderInSection:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -342,11 +342,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836395.263723"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "logoutButtonPressed(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -374,11 +374,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836355.388071"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
             landmarkName = "loadUser()"
             landmarkType = "5">
             <Locations>
@@ -420,11 +420,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836371.555839"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -436,11 +436,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836373.665086"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -452,11 +452,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836406.441495"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "loadUser()"
             landmarkType = "5">
          </BreakpointContent>
@@ -468,11 +468,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447836599.972031"
+            timestampString = "447841127.887906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "loadUser()"
             landmarkType = "5">
          </BreakpointContent>
