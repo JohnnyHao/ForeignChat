@@ -17,6 +17,15 @@
 		9D2D838E1AB183A1001FE677 /* FCFounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */; };
 		9D2D838F1AB183A1001FE677 /* FCFounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */; };
 		9D2D83901AB183A1001FE677 /* FCFounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */; };
+		9D2D83961AB186BE001FE677 /* UserCenterRootNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D83951AB186BE001FE677 /* UserCenterRootNavController.swift */; };
+		9D2D83971AB186BE001FE677 /* UserCenterRootNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D83951AB186BE001FE677 /* UserCenterRootNavController.swift */; };
+		9D2D83981AB186BE001FE677 /* UserCenterRootNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D83951AB186BE001FE677 /* UserCenterRootNavController.swift */; };
+		9D2D839A1AB18AFE001FE677 /* FCFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83991AB18AFE001FE677 /* FCFriends.storyboard */; };
+		9D2D839B1AB18AFE001FE677 /* FCFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83991AB18AFE001FE677 /* FCFriends.storyboard */; };
+		9D2D839C1AB18AFE001FE677 /* FCFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83991AB18AFE001FE677 /* FCFriends.storyboard */; };
+		9D2D839E1AB18B0C001FE677 /* FCChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */; };
+		9D2D839F1AB18B0C001FE677 /* FCChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */; };
+		9D2D83A01AB18B0C001FE677 /* FCChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */; };
 		9DAE92D51AB0292300ED12B7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1511E1AAEF4FA0097EC07 /* SearchViewController.swift */; };
 		9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A20E81A99E372003248CE /* ProgressHUD.m */; };
 		9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F57F1AA1713B00C09791 /* JSQMessagesCollectionViewCellIncoming.m */; };
@@ -443,6 +452,9 @@
 		9D2D83851AB18376001FE677 /* FCUserCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCUserCenter.storyboard; sourceTree = "<group>"; };
 		9D2D83891AB1838F001FE677 /* FCMessages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCMessages.storyboard; sourceTree = "<group>"; };
 		9D2D838D1AB183A1001FE677 /* FCFounds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCFounds.storyboard; sourceTree = "<group>"; };
+		9D2D83951AB186BE001FE677 /* UserCenterRootNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterRootNavController.swift; sourceTree = "<group>"; };
+		9D2D83991AB18AFE001FE677 /* FCFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCFriends.storyboard; sourceTree = "<group>"; };
+		9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCChat.storyboard; sourceTree = "<group>"; };
 		9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeignChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ForeignChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/ForeignChat copy-Info.plist"; sourceTree = "<absolute>"; };
 		9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCBaseServerObj.swift; sourceTree = "<group>"; };
@@ -922,6 +934,7 @@
 		9DE151161AAEF4FA0097EC07 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */,
 				9DE151171AAEF4FA0097EC07 /* ChatViewController.swift */,
 			);
 			path = Chat;
@@ -939,6 +952,7 @@
 			isa = PBXGroup;
 			children = (
 				9DE1511A1AAEF4FA0097EC07 /* AddressBookViewController.swift */,
+				9D2D83991AB18AFE001FE677 /* FCFriends.storyboard */,
 				9DE1511B1AAEF4FA0097EC07 /* FacebookFriendsViewController.swift */,
 				9DE1511C1AAEF4FA0097EC07 /* GroupsViewController.swift */,
 				9DE1511D1AAEF4FA0097EC07 /* PrivateViewController.swift */,
@@ -962,6 +976,7 @@
 		9DE151241AAEF4FA0097EC07 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				9D2D83951AB186BE001FE677 /* UserCenterRootNavController.swift */,
 				9DE151251AAEF4FA0097EC07 /* LoginViewController.swift */,
 				9DE151261AAEF4FA0097EC07 /* ProfileViewController.swift */,
 				9DE151271AAEF4FA0097EC07 /* RegisterViewController.swift */,
@@ -1115,6 +1130,8 @@
 				9D2D83861AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
 				9D2D838E1AB183A1001FE677 /* FCFounds.storyboard in Resources */,
 				9D2D838A1AB1838F001FE677 /* FCMessages.storyboard in Resources */,
+				9D2D839E1AB18B0C001FE677 /* FCChat.storyboard in Resources */,
+				9D2D839A1AB18AFE001FE677 /* FCFriends.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1139,6 +1156,8 @@
 				9DAE933F1AB0292300ED12B7 /* JSQMessagesViewController.xib in Resources */,
 				9DAE93401AB0292300ED12B7 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				9DAE93411AB0292300ED12B7 /* JSQMessagesToolbarContentView.xib in Resources */,
+				9D2D839C1AB18AFE001FE677 /* FCFriends.storyboard in Resources */,
+				9D2D83A01AB18B0C001FE677 /* FCChat.storyboard in Resources */,
 				9D2D83901AB183A1001FE677 /* FCFounds.storyboard in Resources */,
 				9DAE93421AB0292300ED12B7 /* LaunchScreen.xib in Resources */,
 				9DAE93431AB0292300ED12B7 /* Images.xcassets in Resources */,
@@ -1171,6 +1190,8 @@
 				9DE150FD1AAEEE550097EC07 /* JSQMessagesViewController.xib in Resources */,
 				9DE150FE1AAEEE550097EC07 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				9DE150FF1AAEEE550097EC07 /* JSQMessagesToolbarContentView.xib in Resources */,
+				9D2D839B1AB18AFE001FE677 /* FCFriends.storyboard in Resources */,
+				9D2D839F1AB18B0C001FE677 /* FCChat.storyboard in Resources */,
 				9D2D838F1AB183A1001FE677 /* FCFounds.storyboard in Resources */,
 				9DE151001AAEEE550097EC07 /* LaunchScreen.xib in Resources */,
 				9DE151011AAEEE550097EC07 /* Images.xcassets in Resources */,
@@ -1297,6 +1318,7 @@
 				9DE151291AAEF4FA0097EC07 /* ChatViewController.swift in Sources */,
 				9DE151411AAEF4FA0097EC07 /* RegisterViewController.swift in Sources */,
 				9DE1512D1AAEF4FA0097EC07 /* FacebookFriendsViewController.swift in Sources */,
+				9D2D83961AB186BE001FE677 /* UserCenterRootNavController.swift in Sources */,
 				9DE1513F1AAEF4FA0097EC07 /* ProfileViewController.swift in Sources */,
 				9DE151371AAEF4FA0097EC07 /* SelectSingleViewController.swift in Sources */,
 				9DE151131AAEF3870097EC07 /* Constants.swift in Sources */,
@@ -1311,6 +1333,7 @@
 				9DAE92D51AB0292300ED12B7 /* SearchViewController.swift in Sources */,
 				9DAE93531AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */,
 				9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */,
+				9D2D83981AB186BE001FE677 /* UserCenterRootNavController.swift in Sources */,
 				9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				9DAE92D81AB0292300ED12B7 /* APContact.m in Sources */,
 				9DAE92D91AB0292300ED12B7 /* JSQMessagesAvatarImage.m in Sources */,
@@ -1389,6 +1412,7 @@
 				9DE151341AAEF4FA0097EC07 /* SearchViewController.swift in Sources */,
 				9DAE93521AB02B7900ED12B7 /* FCBaseServerObj.swift in Sources */,
 				9DE150941AAEEE550097EC07 /* ProgressHUD.m in Sources */,
+				9D2D83971AB186BE001FE677 /* UserCenterRootNavController.swift in Sources */,
 				9DE150951AAEEE550097EC07 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				9DE150961AAEEE550097EC07 /* APContact.m in Sources */,
 				9DE150991AAEEE550097EC07 /* JSQMessagesAvatarImage.m in Sources */,
