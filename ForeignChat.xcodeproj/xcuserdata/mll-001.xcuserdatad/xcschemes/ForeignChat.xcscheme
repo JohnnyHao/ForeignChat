@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DE150911AAEEE550097EC07"
-               BuildableName = "SwiftParseChat copy.app"
+               BuildableName = "ForeignChat.app"
                BlueprintName = "ForeignChat"
                ReferencedContainer = "container:ForeignChat.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DE150911AAEEE550097EC07"
-            BuildableName = "SwiftParseChat copy.app"
+            BuildableName = "ForeignChat.app"
             BlueprintName = "ForeignChat"
             ReferencedContainer = "container:ForeignChat.xcodeproj">
          </BuildableReference>
@@ -48,11 +48,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DE150911AAEEE550097EC07"
-            BuildableName = "SwiftParseChat copy.app"
+            BuildableName = "ForeignChat.app"
             BlueprintName = "ForeignChat"
             ReferencedContainer = "container:ForeignChat.xcodeproj">
          </BuildableReference>
@@ -66,11 +67,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DE150911AAEEE550097EC07"
-            BuildableName = "SwiftParseChat copy.app"
+            BuildableName = "ForeignChat.app"
             BlueprintName = "ForeignChat"
             ReferencedContainer = "container:ForeignChat.xcodeproj">
          </BuildableReference>
