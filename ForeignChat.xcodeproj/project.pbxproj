@@ -26,6 +26,9 @@
 		9D2D839E1AB18B0C001FE677 /* FCChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */; };
 		9D2D839F1AB18B0C001FE677 /* FCChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */; };
 		9D2D83A01AB18B0C001FE677 /* FCChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */; };
+		9D2D83A21AB1910F001FE677 /* icon_videos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83A11AB1910F001FE677 /* icon_videos@2x.png */; };
+		9D2D83A31AB1910F001FE677 /* icon_videos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83A11AB1910F001FE677 /* icon_videos@2x.png */; };
+		9D2D83A41AB1910F001FE677 /* icon_videos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D83A11AB1910F001FE677 /* icon_videos@2x.png */; };
 		9DAE92D51AB0292300ED12B7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1511E1AAEF4FA0097EC07 /* SearchViewController.swift */; };
 		9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A20E81A99E372003248CE /* ProgressHUD.m */; };
 		9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F57F1AA1713B00C09791 /* JSQMessagesCollectionViewCellIncoming.m */; };
@@ -455,6 +458,7 @@
 		9D2D83951AB186BE001FE677 /* UserCenterRootNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterRootNavController.swift; sourceTree = "<group>"; };
 		9D2D83991AB18AFE001FE677 /* FCFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCFriends.storyboard; sourceTree = "<group>"; };
 		9D2D839D1AB18B0C001FE677 /* FCChat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FCChat.storyboard; sourceTree = "<group>"; };
+		9D2D83A11AB1910F001FE677 /* icon_videos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_videos@2x.png"; path = "Images.xcassets/icon_videos.imageset/icon_videos@2x.png"; sourceTree = "<group>"; };
 		9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeignChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ForeignChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/ForeignChat copy-Info.plist"; sourceTree = "<absolute>"; };
 		9DAE93501AB02B7900ED12B7 /* FCBaseServerObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCBaseServerObj.swift; sourceTree = "<group>"; };
@@ -582,6 +586,7 @@
 				8365C2D31A9C4B77003FB374 /* SwiftForeignChat-Bridging-Header.h */,
 				83C839AB1A9978F6007AC2AC /* Utilities */,
 				831C191F1A97F5CA000FD6D0 /* Images.xcassets */,
+				9D2D83A11AB1910F001FE677 /* icon_videos@2x.png */,
 				831C19211A97F5CA000FD6D0 /* LaunchScreen.xib */,
 				831C19141A97F5CA000FD6D0 /* Supporting Files */,
 			);
@@ -1130,6 +1135,7 @@
 				9D2D83861AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
 				9D2D838E1AB183A1001FE677 /* FCFounds.storyboard in Resources */,
 				9D2D838A1AB1838F001FE677 /* FCMessages.storyboard in Resources */,
+				9D2D83A21AB1910F001FE677 /* icon_videos@2x.png in Resources */,
 				9D2D839E1AB18B0C001FE677 /* FCChat.storyboard in Resources */,
 				9D2D839A1AB18AFE001FE677 /* FCFriends.storyboard in Resources */,
 			);
@@ -1144,6 +1150,7 @@
 				9DAE93351AB0292300ED12B7 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				9DAE93361AB0292300ED12B7 /* JSQMessages.strings in Resources */,
 				9DAE93371AB0292300ED12B7 /* Default-568h@2x.png in Resources */,
+				9D2D83A41AB1910F001FE677 /* icon_videos@2x.png in Resources */,
 				9D2D83881AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
 				9DAE93381AB0292300ED12B7 /* chat_blank@2x.png in Resources */,
 				9DAE93391AB0292300ED12B7 /* ProgressHUD.bundle in Resources */,
@@ -1178,6 +1185,7 @@
 				9DE150F31AAEEE550097EC07 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				9DE150F41AAEEE550097EC07 /* JSQMessages.strings in Resources */,
 				9DE150F51AAEEE550097EC07 /* Default-568h@2x.png in Resources */,
+				9D2D83A31AB1910F001FE677 /* icon_videos@2x.png in Resources */,
 				9D2D83871AB18376001FE677 /* FCUserCenter.storyboard in Resources */,
 				9DE150F61AAEEE550097EC07 /* chat_blank@2x.png in Resources */,
 				9DE150F71AAEEE550097EC07 /* ProgressHUD.bundle in Resources */,

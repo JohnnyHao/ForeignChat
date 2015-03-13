@@ -38,10 +38,10 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ForeignChat_copy.LoginViewController.loginButtonPressed (ForeignChat_copy.LoginViewController)(ObjectiveC.UIButton) -&gt; ()"
-                  moduleName = "ForeignChat copy"
+                  symbolName = "SwiftParseChat_copy.LoginViewController.loginButtonPressed (SwiftParseChat_copy.LoginViewController)(ObjectiveC.UIButton) -&gt; ()"
+                  moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447836804.527861"
+                  timestampString = "447909175.18957"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "48"
@@ -52,10 +52,10 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ForeignChat_copy.LoginViewController.(loginButtonPressed (ForeignChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "ForeignChat copy"
+                  symbolName = "SwiftParseChat_copy.LoginViewController.(loginButtonPressed (SwiftParseChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447836804.52815"
+                  timestampString = "447909175.189822"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -196,10 +196,10 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ForeignChat_copy.LoginViewController.(loginButtonPressed (ForeignChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "ForeignChat copy"
+                  symbolName = "SwiftParseChat_copy.LoginViewController.(loginButtonPressed (SwiftParseChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447836804.534877"
+                  timestampString = "447909175.23681"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -210,10 +210,10 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ForeignChat_copy.LoginViewController.(loginButtonPressed (ForeignChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "ForeignChat copy"
+                  symbolName = "SwiftParseChat_copy.LoginViewController.(loginButtonPressed (SwiftParseChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447836804.53505"
+                  timestampString = "447909175.237005"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -310,13 +310,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
+            timestampString = "447908859.630913"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
-            landmarkName = "logout()"
-            landmarkType = "5">
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -342,13 +342,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
+            timestampString = "447908859.630913"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
-            landmarkName = "logoutButtonPressed(_:)"
-            landmarkType = "5">
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -365,52 +365,6 @@
             endingLineNumber = "38"
             landmarkName = "loginButtonPressed(_:)"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
-            landmarkName = "loadUser()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ForeignChat_copy.ProfileViewController.loadUser (ForeignChat_copy.ProfileViewController)() -&gt; ()"
-                  moduleName = "ForeignChat copy"
-                  urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-                  timestampString = "447836804.543041"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "145"
-                  endingLineNumber = "145"
-                  offsetFromSymbolStart = "180">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.PFObject&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ()) to @callee_unowned @objc_block (@unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.PFObject&gt;, @unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ())"
-                  moduleName = "ForeignChat copy"
-                  urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-                  timestampString = "447836804.54322"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "145"
-                  endingLineNumber = "145"
-                  offsetFromSymbolStart = "0">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -452,12 +406,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
+            timestampString = "447908826.641989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
-            landmarkName = "loadUser()"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -468,12 +422,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
+            timestampString = "447908828.490686"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
-            landmarkName = "loadUser()"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
+            timestampString = "447908858.439661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
+            timestampString = "447908908.690272"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -118,8 +118,22 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
         }
         else {
             cell = tableView.dequeueReusableCellWithIdentifier(kNormalCellIndentifier) as UITableViewCell
-             var textLable = cell.viewWithTag(kNormalCellLabelTag)
-             (textLable as UILabel).text = "My Posts"
+        
+            var textLable = cell.viewWithTag(kNormalCellLabelTag)
+            var cellIcon = cell.viewWithTag(kNormalCellIconTag)
+
+            if indexPath.row == 0 {
+                (textLable as UILabel).text = "My Posts"
+                var image = UIImage(named:"icon_posts")
+                (cellIcon as PFImageView).image = image
+       
+            } else if indexPath.row == 1 {
+                (textLable as UILabel).text = "My Videos"
+                var image = UIImage(named:"icon_videos")
+                (cellIcon as PFImageView).image = image
+
+
+            }
         }
         cell.accessoryType =  .DisclosureIndicator
         return cell
@@ -166,7 +180,6 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
                     if data != nil {
                         var image = UIImage(data: data!)
                         self.userIcon = Images.resizeImage(image!, width: 60, height: 60)!
-                        //self.userImageView.image = image
                     }
                 }
                 self.profileTableView.reloadData()

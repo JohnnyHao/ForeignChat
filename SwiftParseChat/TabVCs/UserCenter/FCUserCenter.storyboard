@@ -336,7 +336,7 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" tag="1002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_edit" translatesAutoresizingMaskIntoConstraints="NO" id="jbb-92-i1L">
+                                                <imageView userInteractionEnabled="NO" tag="1002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_posts" translatesAutoresizingMaskIntoConstraints="NO" id="jbb-92-i1L" customClass="PFImageView">
                                                     <rect key="frame" x="20" y="5" width="30" height="30"/>
                                                 </imageView>
                                             </subviews>
@@ -436,7 +436,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_edit" width="16" height="16"/>
+        <image name="icon_posts" width="16" height="16"/>
         <image name="profile_blank.png" width="70" height="70"/>
         <image name="tab_profile.png" width="30" height="30"/>
     </resources>
