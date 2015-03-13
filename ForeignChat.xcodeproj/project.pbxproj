@@ -133,6 +133,12 @@
 		9D3D81ED1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */; };
 		9D3D81EE1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */; };
 		9D3D81EF1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */; };
+		9D3D81F11AB2CADD00BBC296 /* FCUserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81F01AB2CADD00BBC296 /* FCUserPostViewController.swift */; };
+		9D3D81F21AB2CADD00BBC296 /* FCUserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81F01AB2CADD00BBC296 /* FCUserPostViewController.swift */; };
+		9D3D81F31AB2CADD00BBC296 /* FCUserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81F01AB2CADD00BBC296 /* FCUserPostViewController.swift */; };
+		9D3D81F51AB2CB1500BBC296 /* FCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81F41AB2CB1500BBC296 /* FCBaseViewController.swift */; };
+		9D3D81F61AB2CB1500BBC296 /* FCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81F41AB2CB1500BBC296 /* FCBaseViewController.swift */; };
+		9D3D81F71AB2CB1500BBC296 /* FCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81F41AB2CB1500BBC296 /* FCBaseViewController.swift */; };
 		9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A20E81A99E372003248CE /* ProgressHUD.m */; };
 		9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F57F1AA1713B00C09791 /* JSQMessagesCollectionViewCellIncoming.m */; };
 		9DAE92D81AB0292300ED12B7 /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1DE81AA413E500198FBF /* APContact.m */; };
@@ -498,6 +504,8 @@
 		9D3D81D81AB2C13C00BBC296 /* tab_messages@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_messages@2x.png"; sourceTree = "<group>"; };
 		9D3D81D91AB2C13C00BBC296 /* tab_private@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_private@2x.png"; sourceTree = "<group>"; };
 		9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_profile@2x.png"; sourceTree = "<group>"; };
+		9D3D81F01AB2CADD00BBC296 /* FCUserPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FCUserPostViewController.swift; path = ForeignChat/TabVCs/UserCenter/FCUserPostViewController.swift; sourceTree = SOURCE_ROOT; };
+		9D3D81F41AB2CB1500BBC296 /* FCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FCBaseViewController.swift; path = ForeignChat/Main/FCBaseViewController.swift; sourceTree = SOURCE_ROOT; };
 		9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeignChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ForeignChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/ForeignChat copy-Info.plist"; sourceTree = "<absolute>"; };
 		9DE1510C1AAEEE550097EC07 /* ForeignChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeignChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -941,6 +949,7 @@
 				9D3D818F1AB2BA8B00BBC296 /* AppDelegate.swift */,
 				9D3D81901AB2BA8B00BBC296 /* FCAPPRootNavController.swift */,
 				9D3D81911AB2BA8B00BBC296 /* FCBaseNavgationController.swift */,
+				9D3D81F41AB2CB1500BBC296 /* FCBaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1009,6 +1018,7 @@
 				9D3D817D1AB2BA7400BBC296 /* LoginViewController.swift */,
 				9D3D817E1AB2BA7400BBC296 /* RegisterViewController.swift */,
 				9D3D817F1AB2BA7400BBC296 /* WelcomeViewController.swift */,
+				9D3D81F01AB2CADD00BBC296 /* FCUserPostViewController.swift */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
@@ -1362,10 +1372,12 @@
 				9D3D818C1AB2BA7400BBC296 /* WelcomeViewController.swift in Sources */,
 				9D3D81C51AB2BC8F00BBC296 /* PushNotification.swift in Sources */,
 				9D3D81801AB2BA7400BBC296 /* FCProfileViewController.swift in Sources */,
+				9D3D81F11AB2CADD00BBC296 /* FCUserPostViewController.swift in Sources */,
 				9D3D81691AB2BA5300BBC296 /* SelectMultipleViewController.swift in Sources */,
 				9D3D81981AB2BA8B00BBC296 /* FCBaseNavgationController.swift in Sources */,
 				9D3D81BC1AB2BC8F00BBC296 /* Camera.swift in Sources */,
 				9D3D81381AB2B9CF00BBC296 /* FCUser.swift in Sources */,
+				9D3D81F51AB2CB1500BBC296 /* FCBaseViewController.swift in Sources */,
 				9D3D816C1AB2BA5300BBC296 /* SelectSingleViewController.swift in Sources */,
 				9D3D81781AB2BA6300BBC296 /* MessagesViewController.swift in Sources */,
 				9D3D815A1AB2BA5300BBC296 /* FacebookFriendsViewController.swift in Sources */,
@@ -1388,6 +1400,7 @@
 				9DAE92DD1AB0292300ED12B7 /* HUDAssets.swift in Sources */,
 				9D3D818B1AB2BA7400BBC296 /* RegisterViewController.swift in Sources */,
 				9D3D81591AB2BA5300BBC296 /* AddressBookViewController.swift in Sources */,
+				9D3D81F71AB2CB1500BBC296 /* FCBaseViewController.swift in Sources */,
 				9DAE92DE1AB0292300ED12B7 /* JSQMessagesCellTextView.m in Sources */,
 				9DAE92DF1AB0292300ED12B7 /* HUDContentView.swift in Sources */,
 				9D3D818E1AB2BA7400BBC296 /* WelcomeViewController.swift in Sources */,
@@ -1422,6 +1435,7 @@
 				9DAE92F91AB0292300ED12B7 /* UIImage+JSQMessages.m in Sources */,
 				9D3D816B1AB2BA5300BBC296 /* SelectMultipleViewController.swift in Sources */,
 				9DAE92FC1AB0292300ED12B7 /* JSQLocationMediaItem.m in Sources */,
+				9D3D81F31AB2CADD00BBC296 /* FCUserPostViewController.swift in Sources */,
 				9DAE92FE1AB0292300ED12B7 /* JSQMessagesToolbarContentView.m in Sources */,
 				9DAE92FF1AB0292300ED12B7 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,
 				9DAE93001AB0292300ED12B7 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
@@ -1469,6 +1483,7 @@
 				9DE1509C1AAEEE550097EC07 /* HUDAssets.swift in Sources */,
 				9D3D818A1AB2BA7400BBC296 /* RegisterViewController.swift in Sources */,
 				9D3D81581AB2BA5300BBC296 /* AddressBookViewController.swift in Sources */,
+				9D3D81F61AB2CB1500BBC296 /* FCBaseViewController.swift in Sources */,
 				9DE1509D1AAEEE550097EC07 /* JSQMessagesCellTextView.m in Sources */,
 				9DE1509E1AAEEE550097EC07 /* HUDContentView.swift in Sources */,
 				9D3D818D1AB2BA7400BBC296 /* WelcomeViewController.swift in Sources */,
@@ -1503,6 +1518,7 @@
 				9DE150B91AAEEE550097EC07 /* UIImage+JSQMessages.m in Sources */,
 				9D3D816A1AB2BA5300BBC296 /* SelectMultipleViewController.swift in Sources */,
 				9DE150BA1AAEEE550097EC07 /* JSQLocationMediaItem.m in Sources */,
+				9D3D81F21AB2CADD00BBC296 /* FCUserPostViewController.swift in Sources */,
 				9DE150BB1AAEEE550097EC07 /* JSQMessagesToolbarContentView.m in Sources */,
 				9DE150BC1AAEEE550097EC07 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,
 				9DE150BD1AAEEE550097EC07 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
