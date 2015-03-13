@@ -17,8 +17,8 @@ class FCFoundsViewController: UIViewController {
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.tabBarItem.image = UIImage(named:"tab_groups")
-        self.tabBarItem.title = "Founds";
-        self.title = "Founds";
+        self.tabBarItem.title = "Founds"
+        self.title = "Founds"
     }
 
     override func viewDidLoad() {

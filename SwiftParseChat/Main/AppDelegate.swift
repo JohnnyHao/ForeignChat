@@ -54,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.rootTab.selectedIndex = DEFAULT_TAB;
 
         self.rootNav = FCAPPRootNavController(rootViewController: self.rootTab)
+        self.rootNav.navigationBarHidden = true
         self.window!.rootViewController = self.rootNav
         self.window!.makeKeyAndVisible()
         
