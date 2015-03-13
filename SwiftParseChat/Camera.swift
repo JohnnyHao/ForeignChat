@@ -64,8 +64,8 @@ class Camera {
         imagePicker.allowsEditing = canEdit
         if target is ChatViewController {
             imagePicker.delegate = target as ChatViewController
-        } else if target is ProfileViewController {
-            imagePicker.delegate = target as ProfileViewController
+        } else if target is FCProfileViewController {
+            imagePicker.delegate = target as FCProfileViewController
         }
         target.presentViewController(imagePicker, animated: true, completion: nil)
         

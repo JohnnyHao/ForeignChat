@@ -16,6 +16,18 @@ class MessagesViewController: UITableViewController, UIActionSheetDelegate, Sele
     @IBOutlet var composeButton: UIBarButtonItem!
     @IBOutlet var emptyView: UIView!
     
+    
+    class func instanceFromStoryBoard() -> (MessagesViewController) {
+        return UIStoryboard(name: "FCMessages", bundle: nil).instantiateViewControllerWithIdentifier("MessagesViewController") as (MessagesViewController)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.tabBarItem.image = UIImage(named:"tab_messages")
+        self.tabBarItem.title = "Messages";
+        self.title = "Messages";
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

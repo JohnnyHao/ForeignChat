@@ -29,6 +29,10 @@ class ChatViewController: JSQMessagesViewController, UICollectionViewDataSource,
     
     var senderImageUrl: String!
     var batchMessages = true
+    
+    class func instanceFromStoryBoard() -> (ChatViewController) {
+        return UIStoryboard(name: "FCChat", bundle: nil).instantiateViewControllerWithIdentifier("ChatViewController") as (ChatViewController)
+    }
 
     
     override func viewDidLoad() {

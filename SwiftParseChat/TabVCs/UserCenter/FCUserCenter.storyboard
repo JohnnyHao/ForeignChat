@@ -206,7 +206,7 @@
         <!--Login-->
         <scene sceneID="y4z-QP-fnc">
             <objects>
-                <tableViewController id="oHt-4D-Sgw" customClass="LoginViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oHt-4D-Sgw" customClass="LoginViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="m3a-9E-u5D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,7 +293,7 @@
         <!--Profile-->
         <scene sceneID="5ny-Sg-hda">
             <objects>
-                <viewController id="gXq-AQ-zq3" customClass="ProfileViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gXq-AQ-zq3" customClass="FCProfileViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bNg-F3-Xkc"/>
                         <viewControllerLayoutGuide type="bottom" id="Cxt-bq-bbX"/>
@@ -366,25 +366,6 @@
             </objects>
             <point key="canvasLocation" x="868" y="1304"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="y6p-0p-lXK">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="clF-9l-r0A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="tab_profile.png" id="MpI-T2-tUf"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lyt-7W-y1h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gXq-AQ-zq3" kind="relationship" relationship="rootViewController" id="BGh-4S-V8S"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jj6-dg-crh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="363" y="1307"/>
-        </scene>
         <!--Facebook Friends-->
         <scene sceneID="BVY-8c-vA8">
             <objects>
@@ -438,7 +419,6 @@
     <resources>
         <image name="icon_posts" width="16" height="16"/>
         <image name="profile_blank.png" width="70" height="70"/>
-        <image name="tab_profile.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

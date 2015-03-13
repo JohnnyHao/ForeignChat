@@ -41,7 +41,7 @@
                   symbolName = "SwiftParseChat_copy.LoginViewController.loginButtonPressed (SwiftParseChat_copy.LoginViewController)(ObjectiveC.UIButton) -&gt; ()"
                   moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447909175.18957"
+                  timestampString = "447918178.442237"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "48"
@@ -55,7 +55,7 @@
                   symbolName = "SwiftParseChat_copy.LoginViewController.(loginButtonPressed (SwiftParseChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
                   moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447909175.189822"
+                  timestampString = "447918178.442434"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -199,7 +199,7 @@
                   symbolName = "SwiftParseChat_copy.LoginViewController.(loginButtonPressed (SwiftParseChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
                   moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447909175.23681"
+                  timestampString = "447918178.447739"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -213,7 +213,7 @@
                   symbolName = "SwiftParseChat_copy.LoginViewController.(loginButtonPressed (SwiftParseChat_copy.LoginViewController) -&gt; (ObjectiveC.UIButton) -&gt; ()).(closure #1)"
                   moduleName = "SwiftParseChat copy"
                   urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/LoginViewController.swift"
-                  timestampString = "447909175.237005"
+                  timestampString = "447918178.447906"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -277,12 +277,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447839542.492183"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -293,12 +293,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447839542.492183"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -309,13 +309,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447908859.630913"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
-            landmarkName = "ProfileViewController"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "FCProfileViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -325,12 +325,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447839542.492183"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "tableView(_:titleForHeaderInSection:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -341,13 +341,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447908859.630913"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
-            landmarkName = "ProfileViewController"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "FCProfileViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -373,12 +373,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -389,12 +389,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447841127.887906"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -405,8 +405,86 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447908826.641989"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftParseChat_copy.FCProfileViewController.tableView (SwiftParseChat_copy.FCProfileViewController)(ObjectiveC.UITableView, cellForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UITableViewCell"
+                  moduleName = "SwiftParseChat copy"
+                  urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+                  timestampString = "447918178.456149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "3416">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftParseChat_copy.FCProfileViewController.tableView (SwiftParseChat_copy.FCProfileViewController)(ObjectiveC.UITableView, cellForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UITableViewCell"
+                  moduleName = "SwiftParseChat copy"
+                  urlString = "file:///Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+                  timestampString = "447918178.456511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "4056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "128"
@@ -421,13 +499,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447908828.490686"
+            filePath = "SwiftParseChat/Main/AppDelegate.swift"
+            timestampString = "447916964.728878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "initWindow()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -437,13 +515,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447908858.439661"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918178.328049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -453,13 +531,93 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/TabVCs/UserCenter/ProfileViewController.swift"
-            timestampString = "447908908.690272"
+            filePath = "SwiftParseChat/Main/AppDelegate.swift"
+            timestampString = "447917785.493113"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "initWindow()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/Main/AppDelegate.swift"
+            timestampString = "447917785.493113"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "initWindow()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/Main/AppDelegate.swift"
+            timestampString = "447917859.347642"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "initWindow()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/Messages/MessagesViewController.swift"
+            timestampString = "447918178.328049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(coder:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918155.654349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "init(coder:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftParseChat/TabVCs/UserCenter/FCProfileViewController.swift"
+            timestampString = "447918159.726234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

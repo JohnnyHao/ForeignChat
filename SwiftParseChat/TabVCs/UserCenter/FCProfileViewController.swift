@@ -11,11 +11,17 @@ import UIKit
 private let kIconCellIndentifier  = "IconCellIndentifier"
 private let kNormalCellIndentifier = "NormalCellIndentifier"
 
+private let kUserIconViewTag = 1000
+private let kUserNameLabelTag = 1001
+
+private let kNormalCellIconTag = 1002
+private let kNormalCellLabelTag = 1003
+
 
 //let kAccountBGColor = UIColor(red: 243.0/255.0, green: 244.0/255.0, blue: 248.0/255.0, alpha: 1.0)
 let kAccountBGColor =       UIColor.groupTableViewBackgroundColor()
 
-class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDataSource, UITableViewDelegate {
+class FCProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var profileTableView: UITableView!
     var userName: String? = nil
@@ -24,9 +30,26 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     var currentUser:FCUser?
     var pictureFile:PFFile?
     var thumbnailFile:PFFile?
+    
+    class func instanceFromStoryBoard() -> (FCProfileViewController) {
+        return UIStoryboard(name: "FCUserCenter", bundle: nil).instantiateViewControllerWithIdentifier("ProfileViewController") as (FCProfileViewController)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.tabBarItem.image = UIImage(named:"tab_profile")
+        self.tabBarItem.title = "Profile";
+        self.title = "Profile";
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tabBarItem.image = UIImage(named:"tab_profile")
+        self.tabBarItem.title = "Profile";
+        self.title = "Profile";
+
+        
         self.view.backgroundColor = kAccountBGColor
         self.profileTableView.backgroundColor = kAccountBGColor
         
@@ -50,22 +73,13 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        
-//        if let currentUser = FCUser.currentUser() {
-//            self.loadUser()
-//        } else {
-//            Utilities.loginUser(self)
-//        }
-//
-//        userImageView.layer.cornerRadius = userImageView.frame.size.width / 2;
-//        userImageView.layer.masksToBounds = true;
-//        imageButton.layer.cornerRadius = userImageView.frame.size.width / 2;
-//        imageButton.layer.masksToBounds = true;
     }
     
     func dismissKeyboard() {
         self.view.endEditing(true)
     }
+    
+
     
     
     // MARK: - UITableViewDataSource
@@ -93,13 +107,7 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
         }
         return nil
     }
-    
-    private let kUserIconViewTag = 1000
-    private let kUserNameLabelTag = 1001
-    
-    
-    private let kNormalCellIconTag = 1002
-    private let kNormalCellLabelTag = 1003
+
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
@@ -160,9 +168,6 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
         
        
     }
-    
-    
-    
     
     
     func loadUser() {
@@ -236,64 +241,5 @@ class ProfileViewController: UIViewController, UIActionSheetDelegate, UIImagePic
             Utilities.loginUser(self)
         }
     }
-    
-    @IBAction func photoButtonPressed(sender: UIButton) {
-        Camera.shouldStartPhotoLibrary(self, canEdit: true)
-    }
-    
-    @IBAction func saveButtonPressed(sender: UIButton) {
-        self.dismissKeyboard()
-        self.saveUser()
-    }
-    
-    // MARK: - UIImagePickerControllerDelegate
-    
-//    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-//        var image = info[UIImagePickerControllerEditedImage] as UIImage
-//        if image.size.width > 280 {
-//            image = Images.resizeImage(image, width: 280, height: 280)!
-//        }
-//        
-//        pictureFile = PFFile(name: "picture.jpg", data: UIImageJPEGRepresentation(image, 0.6))
-//        pictureFile?.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
-//            if error != nil {
-//                ProgressHUD.showError("Network error")
-//            }
-//        }
-//        
-//        userImageView.image = image
-//        
-//        if image.size.width > 60 {
-//            image = Images.resizeImage(image, width: 60, height: 60)!
-//        }
-//        
-//        thumbnailFile = PFFile(name: "thumbnail.jpg", data: UIImageJPEGRepresentation(image, 0.6))
-//        thumbnailFile?.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
-//            if error != nil {
-//                ProgressHUD.showError("Network error")
-//            }
-//        }
-//        
-////        var user = PFUser.currentUser()
-////        user[PF_USER_PICTURE] = pictureFile
-////        user[PF_USER_THUMBNAIL] = thumbnailFile
-////        user.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
-////            if error != nil {
-////                ProgressHUD.showError("Network error")
-////            }
-////        }
-//        
-//        if currentUser != nil {
-//            currentUser!.picture = pictureFile!
-//            currentUser!.thumbnail = thumbnailFile!
-//            currentUser!.saveInBackgroundWithBlock { (succeeded: Bool, error: NSError!) -> Void in
-//                if error != nil {
-//                    ProgressHUD.showError("Network error")
-//                }
-//            }
-//        }
-//
-//        picker.dismissViewControllerAnimated(true, completion: nil)
-//    }
 
 }

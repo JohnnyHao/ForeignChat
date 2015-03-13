@@ -1,14 +1,14 @@
 //
-//  UserCenterRootNavController.swift
+//  FCBaseNavgationController.swift
 //  ForeignChat
 //
-//  Created by Tonny.hao on 3/12/15.
+//  Created by Tonny.hao on 3/13/15.
 //  Copyright (c) 2015 JohnnyHao. All rights reserved.
 //
 
 import UIKit
 
-class UserCenterRootNavController: UINavigationController {
+class FCBaseNavgationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

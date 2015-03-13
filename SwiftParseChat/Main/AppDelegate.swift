@@ -13,19 +13,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var rootNav:FCAPPRootNavController!
+    var rootTab:UITabBarController!
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         Parse.enableLocalDatastore()
-       // Parse.setApplicationId("tu0A4h2TBnxJJm8YLUoZ98rCovW6htY8allF05pI", clientKey: "XzdRL5P5IsjsNo6rTuiWUOfBCgkdbzmGE6E0dtXv")
-        
         Parse.setApplicationId("MI7NQHOYeFPz3kVIOO2rTMSCf6cwwIV8bdjtW9XT", clientKey: "XMRrseawMmkJMsaMgKnWTcfJOUP1VzcQqdZNxZMf")
-
-        // PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
-        
-        PFFacebookUtils.initializeFacebook()
-        
         if application.respondsToSelector(Selector("registerUserNotificationSettings:")) {
             let userNotificationTypes = (UIUserNotificationType.Alert |
                 UIUserNotificationType.Badge |
@@ -35,10 +31,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
         }
-
-//        FBLoginView.self
-        
+        initWindow()
         return true
+    }
+    
+    
+    func initWindow() {
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        var foundsVC = FCFoundsViewController.instanceFromStoryBoard()
+        var foundsNav = FCBaseNavgationController(rootViewController: foundsVC)
+        
+        var messagesVC = MessagesViewController.instanceFromStoryBoard()
+        var messagesNav = FCBaseNavgationController(rootViewController: messagesVC)
+        
+        var profileVC = FCProfileViewController.instanceFromStoryBoard()
+        var profileNav = FCBaseNavgationController(rootViewController: profileVC)
+        
+        self.rootTab = UITabBarController()
+        self.rootTab.viewControllers = [foundsNav,messagesNav,profileNav]
+        self.rootTab.tabBar.translucent = false;
+        self.rootTab.selectedIndex = DEFAULT_TAB;
+
+        self.rootNav = FCAPPRootNavController(rootViewController: self.rootTab)
+        self.window!.rootViewController = self.rootNav
+        self.window!.makeKeyAndVisible()
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
