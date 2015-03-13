@@ -7,7 +7,7 @@
 //
 
 import UIKit
-// Parse loaded from SwiftParseChat-Bridging-Header.h
+// Parse loaded from ForeignChat-Bridging-Header.h
 
 class GroupsViewController: UITableViewController, UIAlertViewDelegate {
     

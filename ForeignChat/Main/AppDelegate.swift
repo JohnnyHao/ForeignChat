@@ -7,7 +7,7 @@
 //
 
 import UIKit
-// Parse and ParseFacebookUtils imported in SwiftParseChat-Bridging-Header.h
+// Parse and ParseFacebookUtils imported in ForeignChat-Bridging-Header.h
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

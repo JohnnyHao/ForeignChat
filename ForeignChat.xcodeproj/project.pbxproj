@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		831C192F1A97F5CA000FD6D0 /* SwiftParseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */; };
 		9D3D81351AB2B9CF00BBC296 /* FCBaseServerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81331AB2B9CF00BBC296 /* FCBaseServerObj.swift */; };
 		9D3D81361AB2B9CF00BBC296 /* FCBaseServerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81331AB2B9CF00BBC296 /* FCBaseServerObj.swift */; };
 		9D3D81371AB2B9CF00BBC296 /* FCBaseServerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81331AB2B9CF00BBC296 /* FCBaseServerObj.swift */; };
@@ -89,9 +88,6 @@
 		9D3D819D1AB2BA9C00BBC296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D819B1AB2BA9C00BBC296 /* Main.storyboard */; };
 		9D3D819E1AB2BA9C00BBC296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D819B1AB2BA9C00BBC296 /* Main.storyboard */; };
 		9D3D819F1AB2BA9C00BBC296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D819B1AB2BA9C00BBC296 /* Main.storyboard */; };
-		9D3D81A11AB2BB5200BBC296 /* images_res in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81A01AB2BB5200BBC296 /* images_res */; };
-		9D3D81A21AB2BB5200BBC296 /* images_res in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81A01AB2BB5200BBC296 /* images_res */; };
-		9D3D81A31AB2BB5200BBC296 /* images_res in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81A01AB2BB5200BBC296 /* images_res */; };
 		9D3D81A61AB2BC0300BBC296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81A51AB2BC0300BBC296 /* Images.xcassets */; };
 		9D3D81A71AB2BC0300BBC296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81A51AB2BC0300BBC296 /* Images.xcassets */; };
 		9D3D81A81AB2BC0300BBC296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81A51AB2BC0300BBC296 /* Images.xcassets */; };
@@ -113,6 +109,30 @@
 		9D3D81C81AB2BC8F00BBC296 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81BB1AB2BC8F00BBC296 /* Utilities.swift */; };
 		9D3D81C91AB2BC8F00BBC296 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81BB1AB2BC8F00BBC296 /* Utilities.swift */; };
 		9D3D81CA1AB2BC8F00BBC296 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D81BB1AB2BC8F00BBC296 /* Utilities.swift */; };
+		9D3D81D01AB2BF8E00BBC296 /* ForeignChat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81CF1AB2BF8E00BBC296 /* ForeignChat-Info.plist */; };
+		9D3D81D11AB2BF8E00BBC296 /* ForeignChat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81CF1AB2BF8E00BBC296 /* ForeignChat-Info.plist */; };
+		9D3D81D21AB2BF8E00BBC296 /* ForeignChat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81CF1AB2BF8E00BBC296 /* ForeignChat-Info.plist */; };
+		9D3D81DB1AB2C13C00BBC296 /* chat_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D41AB2C13C00BBC296 /* chat_blank@2x.png */; };
+		9D3D81DC1AB2C13C00BBC296 /* chat_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D41AB2C13C00BBC296 /* chat_blank@2x.png */; };
+		9D3D81DD1AB2C13C00BBC296 /* chat_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D41AB2C13C00BBC296 /* chat_blank@2x.png */; };
+		9D3D81DE1AB2C13C00BBC296 /* messages_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D51AB2C13C00BBC296 /* messages_blank@2x.png */; };
+		9D3D81DF1AB2C13C00BBC296 /* messages_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D51AB2C13C00BBC296 /* messages_blank@2x.png */; };
+		9D3D81E01AB2C13C00BBC296 /* messages_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D51AB2C13C00BBC296 /* messages_blank@2x.png */; };
+		9D3D81E11AB2C13C00BBC296 /* profile_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D61AB2C13C00BBC296 /* profile_blank@2x.png */; };
+		9D3D81E21AB2C13C00BBC296 /* profile_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D61AB2C13C00BBC296 /* profile_blank@2x.png */; };
+		9D3D81E31AB2C13C00BBC296 /* profile_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D61AB2C13C00BBC296 /* profile_blank@2x.png */; };
+		9D3D81E41AB2C13C00BBC296 /* tab_group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D71AB2C13C00BBC296 /* tab_group@2x.png */; };
+		9D3D81E51AB2C13C00BBC296 /* tab_group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D71AB2C13C00BBC296 /* tab_group@2x.png */; };
+		9D3D81E61AB2C13C00BBC296 /* tab_group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D71AB2C13C00BBC296 /* tab_group@2x.png */; };
+		9D3D81E71AB2C13C00BBC296 /* tab_messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D81AB2C13C00BBC296 /* tab_messages@2x.png */; };
+		9D3D81E81AB2C13C00BBC296 /* tab_messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D81AB2C13C00BBC296 /* tab_messages@2x.png */; };
+		9D3D81E91AB2C13C00BBC296 /* tab_messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D81AB2C13C00BBC296 /* tab_messages@2x.png */; };
+		9D3D81EA1AB2C13C00BBC296 /* tab_private@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D91AB2C13C00BBC296 /* tab_private@2x.png */; };
+		9D3D81EB1AB2C13C00BBC296 /* tab_private@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D91AB2C13C00BBC296 /* tab_private@2x.png */; };
+		9D3D81EC1AB2C13C00BBC296 /* tab_private@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81D91AB2C13C00BBC296 /* tab_private@2x.png */; };
+		9D3D81ED1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */; };
+		9D3D81EE1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */; };
+		9D3D81EF1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */; };
 		9DAE92D61AB0292300ED12B7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A20E81A99E372003248CE /* ProgressHUD.m */; };
 		9DAE92D71AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F57F1AA1713B00C09791 /* JSQMessagesCollectionViewCellIncoming.m */; };
 		9DAE92D81AB0292300ED12B7 /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1DE81AA413E500198FBF /* APContact.m */; };
@@ -287,7 +307,6 @@
 		831C19151A97F5CA000FD6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831C19281A97F5CA000FD6D0 /* ForeignChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForeignChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831C192D1A97F5CA000FD6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftParseChatTests.swift; sourceTree = "<group>"; };
 		831C19521A9814B0000FD6D0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		831C19531A9814B0000FD6D0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		831C19541A9814B0000FD6D0 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -463,7 +482,6 @@
 		9D3D81901AB2BA8B00BBC296 /* FCAPPRootNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FCAPPRootNavController.swift; path = ForeignChat/Main/FCAPPRootNavController.swift; sourceTree = SOURCE_ROOT; };
 		9D3D81911AB2BA8B00BBC296 /* FCBaseNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FCBaseNavgationController.swift; path = ForeignChat/Main/FCBaseNavgationController.swift; sourceTree = SOURCE_ROOT; };
 		9D3D819C1AB2BA9C00BBC296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ForeignChat/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		9D3D81A01AB2BB5200BBC296 /* images_res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images_res; path = ForeignChat/images_res; sourceTree = SOURCE_ROOT; };
 		9D3D81A41AB2BB6E00BBC296 /* SwiftForeignChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwiftForeignChat-Bridging-Header.h"; path = "ForeignChat/SwiftForeignChat-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		9D3D81A51AB2BC0300BBC296 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ForeignChat/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		9D3D81AE1AB2BC4900BBC296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ForeignChat/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
@@ -472,10 +490,17 @@
 		9D3D81B91AB2BC8F00BBC296 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		9D3D81BA1AB2BC8F00BBC296 /* PushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
 		9D3D81BB1AB2BC8F00BBC296 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9D3D81CF1AB2BF8E00BBC296 /* ForeignChat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ForeignChat-Info.plist"; sourceTree = "<group>"; };
+		9D3D81D41AB2C13C00BBC296 /* chat_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_blank@2x.png"; sourceTree = "<group>"; };
+		9D3D81D51AB2C13C00BBC296 /* messages_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages_blank@2x.png"; sourceTree = "<group>"; };
+		9D3D81D61AB2C13C00BBC296 /* profile_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_blank@2x.png"; sourceTree = "<group>"; };
+		9D3D81D71AB2C13C00BBC296 /* tab_group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_group@2x.png"; sourceTree = "<group>"; };
+		9D3D81D81AB2C13C00BBC296 /* tab_messages@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_messages@2x.png"; sourceTree = "<group>"; };
+		9D3D81D91AB2C13C00BBC296 /* tab_private@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_private@2x.png"; sourceTree = "<group>"; };
+		9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_profile@2x.png"; sourceTree = "<group>"; };
 		9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForeignChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ForeignChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/ForeignChat copy-Info.plist"; sourceTree = "<absolute>"; };
-		9DE1510C1AAEEE550097EC07 /* SwiftParseChat copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftParseChat copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DE1510D1AAEEE560097EC07 /* SwiftParseChat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftParseChat copy-Info.plist"; path = "/Users/mll-001/Documents/iOS_WorkSpace/TowerGitWorkSpace/ForeignChat/SwiftParseChat copy-Info.plist"; sourceTree = "<absolute>"; };
+		9DE1510C1AAEEE550097EC07 /* ForeignChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeignChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -556,7 +581,7 @@
 				831C19121A97F5CA000FD6D0 /* Products */,
 				BA1D0AD88CD4A1615707E353 /* Pods */,
 				E0C7DE20595F2582990BD048 /* Frameworks */,
-				9DE1510D1AAEEE560097EC07 /* SwiftParseChat copy-Info.plist */,
+				9D3D81CF1AB2BF8E00BBC296 /* ForeignChat-Info.plist */,
 				9DAE934F1AB0292400ED12B7 /* ForeignChat copy-Info.plist */,
 			);
 			sourceTree = "<group>";
@@ -565,7 +590,7 @@
 			isa = PBXGroup;
 			children = (
 				831C19281A97F5CA000FD6D0 /* ForeignChatTests.xctest */,
-				9DE1510C1AAEEE550097EC07 /* SwiftParseChat copy.app */,
+				9DE1510C1AAEEE550097EC07 /* ForeignChat.app */,
 				9DAE934E1AB0292300ED12B7 /* ForeignChat copy.app */,
 			);
 			name = Products;
@@ -599,7 +624,6 @@
 		831C192B1A97F5CA000FD6D0 /* SwiftParseChatTests */ = {
 			isa = PBXGroup;
 			children = (
-				831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */,
 				831C192C1A97F5CA000FD6D0 /* Supporting Files */,
 			);
 			path = SwiftParseChatTests;
@@ -616,7 +640,7 @@
 		831C19391A9807CF000FD6D0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D3D81A01AB2BB5200BBC296 /* images_res */,
+				9D3D81D31AB2C13C00BBC296 /* images_res */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -895,6 +919,21 @@
 			path = ForeignChat/Utilities;
 			sourceTree = SOURCE_ROOT;
 		};
+		9D3D81D31AB2C13C00BBC296 /* images_res */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D81D41AB2C13C00BBC296 /* chat_blank@2x.png */,
+				9D3D81D51AB2C13C00BBC296 /* messages_blank@2x.png */,
+				9D3D81D61AB2C13C00BBC296 /* profile_blank@2x.png */,
+				9D3D81D71AB2C13C00BBC296 /* tab_group@2x.png */,
+				9D3D81D81AB2C13C00BBC296 /* tab_messages@2x.png */,
+				9D3D81D91AB2C13C00BBC296 /* tab_private@2x.png */,
+				9D3D81DA1AB2C13C00BBC296 /* tab_profile@2x.png */,
+			);
+			name = images_res;
+			path = ForeignChat/images_res;
+			sourceTree = SOURCE_ROOT;
+		};
 		9DE1510E1AAEF3680097EC07 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -1059,7 +1098,7 @@
 			);
 			name = ForeignChat;
 			productName = SwiftParseChat;
-			productReference = 9DE1510C1AAEEE550097EC07 /* SwiftParseChat copy.app */;
+			productReference = 9DE1510C1AAEEE550097EC07 /* ForeignChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1115,12 +1154,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3D81E71AB2C13C00BBC296 /* tab_messages@2x.png in Resources */,
 				9D3D81AF1AB2BC4900BBC296 /* LaunchScreen.xib in Resources */,
+				9D3D81DE1AB2C13C00BBC296 /* messages_blank@2x.png in Resources */,
 				9D3D81A61AB2BC0300BBC296 /* Images.xcassets in Resources */,
 				9D3D819D1AB2BA9C00BBC296 /* Main.storyboard in Resources */,
-				9D3D81A11AB2BB5200BBC296 /* images_res in Resources */,
 				9D3D81721AB2BA6300BBC296 /* FCMessages.storyboard in Resources */,
+				9D3D81ED1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */,
+				9D3D81E11AB2C13C00BBC296 /* profile_blank@2x.png in Resources */,
+				9D3D81D01AB2BF8E00BBC296 /* ForeignChat-Info.plist in Resources */,
+				9D3D81DB1AB2C13C00BBC296 /* chat_blank@2x.png in Resources */,
 				9D3D81831AB2BA7400BBC296 /* FCUserCenter.storyboard in Resources */,
+				9D3D81EA1AB2C13C00BBC296 /* tab_private@2x.png in Resources */,
+				9D3D81E41AB2C13C00BBC296 /* tab_group@2x.png in Resources */,
 				9D3D815D1AB2BA5300BBC296 /* FCFriends.storyboard in Resources */,
 				9D3D81441AB2BA2F00BBC296 /* FCChat.storyboard in Resources */,
 				9D3D81491AB2BA4500BBC296 /* FCFounds.storyboard in Resources */,
@@ -1132,7 +1178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3D814B1AB2BA4500BBC296 /* FCFounds.storyboard in Resources */,
-				9D3D81A31AB2BB5200BBC296 /* images_res in Resources */,
 				9DAE93351AB0292300ED12B7 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				9DAE93361AB0292300ED12B7 /* JSQMessages.strings in Resources */,
 				9DAE93371AB0292300ED12B7 /* Default-568h@2x.png in Resources */,
@@ -1142,14 +1187,22 @@
 				9D3D81461AB2BA2F00BBC296 /* FCChat.storyboard in Resources */,
 				9DAE933E1AB0292300ED12B7 /* JSQMessagesAssets.bundle in Resources */,
 				9DAE933F1AB0292300ED12B7 /* JSQMessagesViewController.xib in Resources */,
+				9D3D81E61AB2C13C00BBC296 /* tab_group@2x.png in Resources */,
 				9DAE93401AB0292300ED12B7 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				9DAE93411AB0292300ED12B7 /* JSQMessagesToolbarContentView.xib in Resources */,
 				9D3D81A81AB2BC0300BBC296 /* Images.xcassets in Resources */,
 				9D3D81741AB2BA6300BBC296 /* FCMessages.storyboard in Resources */,
 				9DAE93441AB0292300ED12B7 /* Images.xcassets in Resources */,
 				9D3D81851AB2BA7400BBC296 /* FCUserCenter.storyboard in Resources */,
+				9D3D81E01AB2C13C00BBC296 /* messages_blank@2x.png in Resources */,
+				9D3D81EF1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */,
+				9D3D81E31AB2C13C00BBC296 /* profile_blank@2x.png in Resources */,
+				9D3D81D21AB2BF8E00BBC296 /* ForeignChat-Info.plist in Resources */,
+				9D3D81E91AB2C13C00BBC296 /* tab_messages@2x.png in Resources */,
 				9DAE93451AB0292300ED12B7 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
+				9D3D81EC1AB2C13C00BBC296 /* tab_private@2x.png in Resources */,
 				9DAE93471AB0292300ED12B7 /* Info.plist in Resources */,
+				9D3D81DD1AB2C13C00BBC296 /* chat_blank@2x.png in Resources */,
 				9D3D81B11AB2BC4900BBC296 /* LaunchScreen.xib in Resources */,
 				9DAE93481AB0292300ED12B7 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
 			);
@@ -1160,7 +1213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3D814A1AB2BA4500BBC296 /* FCFounds.storyboard in Resources */,
-				9D3D81A21AB2BB5200BBC296 /* images_res in Resources */,
 				9DE150F31AAEEE550097EC07 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				9DE150F41AAEEE550097EC07 /* JSQMessages.strings in Resources */,
 				9DE150F51AAEEE550097EC07 /* Default-568h@2x.png in Resources */,
@@ -1170,14 +1222,22 @@
 				9D3D81451AB2BA2F00BBC296 /* FCChat.storyboard in Resources */,
 				9DE150FC1AAEEE550097EC07 /* JSQMessagesAssets.bundle in Resources */,
 				9DE150FD1AAEEE550097EC07 /* JSQMessagesViewController.xib in Resources */,
+				9D3D81E51AB2C13C00BBC296 /* tab_group@2x.png in Resources */,
 				9DE150FE1AAEEE550097EC07 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				9DE150FF1AAEEE550097EC07 /* JSQMessagesToolbarContentView.xib in Resources */,
 				9D3D81A71AB2BC0300BBC296 /* Images.xcassets in Resources */,
 				9D3D81731AB2BA6300BBC296 /* FCMessages.storyboard in Resources */,
 				9DE151021AAEEE550097EC07 /* Images.xcassets in Resources */,
 				9D3D81841AB2BA7400BBC296 /* FCUserCenter.storyboard in Resources */,
+				9D3D81DF1AB2C13C00BBC296 /* messages_blank@2x.png in Resources */,
+				9D3D81EE1AB2C13C00BBC296 /* tab_profile@2x.png in Resources */,
+				9D3D81E21AB2C13C00BBC296 /* profile_blank@2x.png in Resources */,
+				9D3D81D11AB2BF8E00BBC296 /* ForeignChat-Info.plist in Resources */,
+				9D3D81E81AB2C13C00BBC296 /* tab_messages@2x.png in Resources */,
 				9DE151031AAEEE550097EC07 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
+				9D3D81EB1AB2C13C00BBC296 /* tab_private@2x.png in Resources */,
 				9DE151051AAEEE550097EC07 /* Info.plist in Resources */,
+				9D3D81DC1AB2C13C00BBC296 /* chat_blank@2x.png in Resources */,
 				9D3D81B01AB2BC4900BBC296 /* LaunchScreen.xib in Resources */,
 				9DE151061AAEEE550097EC07 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
 			);
@@ -1301,7 +1361,6 @@
 				9D3D81C81AB2BC8F00BBC296 /* Utilities.swift in Sources */,
 				9D3D818C1AB2BA7400BBC296 /* WelcomeViewController.swift in Sources */,
 				9D3D81C51AB2BC8F00BBC296 /* PushNotification.swift in Sources */,
-				831C192F1A97F5CA000FD6D0 /* SwiftParseChatTests.swift in Sources */,
 				9D3D81801AB2BA7400BBC296 /* FCProfileViewController.swift in Sources */,
 				9D3D81691AB2BA5300BBC296 /* SelectMultipleViewController.swift in Sources */,
 				9D3D81981AB2BA8B00BBC296 /* FCBaseNavgationController.swift in Sources */,
@@ -1608,7 +1667,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftParseChatTests/Info.plist;
+				INFOPLIST_FILE = ForeignChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftParseChat.app/SwiftParseChat";
@@ -1623,7 +1682,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftParseChatTests/Info.plist;
+				INFOPLIST_FILE = ForeignChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftParseChat.app/SwiftParseChat";
@@ -1699,9 +1758,9 @@
 					"\"$(SRCROOT)/Frameworks\"/**",
 					"$(PODS_ROOT)/**",
 				);
-				INFOPLIST_FILE = "SwiftParseChat copy-Info.plist";
+				INFOPLIST_FILE = "ForeignChat-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "SwiftParseChat copy";
+				PRODUCT_NAME = ForeignChat;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ForeignChat/SwiftForeignChat-Bridging-Header.h";
 				VALID_ARCHS = "armv7s armv7 arm64";
@@ -1725,9 +1784,9 @@
 					"\"$(SRCROOT)/Frameworks\"/**",
 					"$(PODS_ROOT)/**",
 				);
-				INFOPLIST_FILE = "SwiftParseChat copy-Info.plist";
+				INFOPLIST_FILE = "ForeignChat-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "SwiftParseChat copy";
+				PRODUCT_NAME = ForeignChat;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ForeignChat/SwiftForeignChat-Bridging-Header.h";
 				VALID_ARCHS = "armv7s armv7 arm64";

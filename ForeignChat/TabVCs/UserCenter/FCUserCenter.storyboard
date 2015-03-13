@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -20,22 +20,22 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iZz-q0-xxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1094" y="-1084"/>
+            <point key="canvasLocation" x="-2051.25" y="-1145.0704225352113"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="T8C-T3-kFb">
             <objects>
-                <viewController storyboardIdentifier="welcomeVC" id="tGE-fG-8Z7" customClass="WelcomeViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="welcomeVC" id="tGE-fG-8Z7" customClass="WelcomeViewController" customModule="ForeignChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PHc-q3-zhq"/>
                         <viewControllerLayoutGuide type="bottom" id="ENC-HY-b1i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9Wk-Xc-VV5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sA-e3-d2z">
-                                <rect key="frame" x="20" y="498" width="280" height="50"/>
+                                <rect key="frame" x="20" y="530" width="560" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="6fL-Lt-rRq"/>
@@ -47,11 +47,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="cWU-bd-GZR" kind="push" id="5im-sL-aHV"/>
+                                    <segue destination="cWU-bd-GZR" kind="show" id="5im-sL-aHV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-m8-Ujk">
-                                <rect key="frame" x="20" y="440" width="280" height="50"/>
+                                <rect key="frame" x="20" y="472" width="560" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="d5H-Ji-KIU"/>
@@ -63,11 +63,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="oHt-4D-Sgw" kind="push" id="09r-Z8-shZ"/>
+                                    <segue destination="oHt-4D-Sgw" kind="show" id="09r-Z8-shZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Z6-GE-ZTG">
-                                <rect key="frame" x="20" y="382" width="280" height="50"/>
+                                <rect key="frame" x="20" y="414" width="560" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0aV-EH-XAK"/>
@@ -104,14 +104,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4o-8E-6Zy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-664" y="-1084"/>
+            <point key="canvasLocation" x="-1245" y="-1145.0704225352113"/>
         </scene>
         <!--Register-->
         <scene sceneID="yV4-tb-a84">
             <objects>
-                <tableViewController id="cWU-bd-GZR" customClass="RegisterViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="cWU-bd-GZR" customClass="RegisterViewController" customModule="ForeignChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="bHm-3d-NLn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -162,7 +162,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eq1-eQ-cyB">
-                                                    <rect key="frame" x="20" y="5" width="280" height="50"/>
+                                                    <rect key="frame" x="20" y="5" width="560" height="50"/>
                                                     <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <state key="normal" title="Register"/>
                                                     <userDefinedRuntimeAttributes>
@@ -201,14 +201,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQT-aJ-P05" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-227" y="-1388"/>
+            <point key="canvasLocation" x="-425.625" y="-1466.1971830985915"/>
         </scene>
         <!--Login-->
         <scene sceneID="y4z-QP-fnc">
             <objects>
-                <tableViewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oHt-4D-Sgw" customClass="LoginViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oHt-4D-Sgw" customClass="LoginViewController" customModule="ForeignChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="m3a-9E-u5D">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -246,7 +246,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQS-6N-Y4W">
-                                                    <rect key="frame" x="20" y="5" width="280" height="50"/>
+                                                    <rect key="frame" x="20" y="5" width="560" height="50"/>
                                                     <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <state key="normal" title="Login">
@@ -288,21 +288,21 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ceX-qF-DQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-227" y="-749"/>
+            <point key="canvasLocation" x="-425.625" y="-791.19718309859149"/>
         </scene>
         <!--Profile-->
         <scene sceneID="5ny-Sg-hda">
             <objects>
-                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gXq-AQ-zq3" customClass="FCProfileViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gXq-AQ-zq3" customClass="FCProfileViewController" customModule="ForeignChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bNg-F3-Xkc"/>
                         <viewControllerLayoutGuide type="bottom" id="Cxt-bq-bbX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HRV-xk-jE1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="118" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sd7-I2-Hag">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="118" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sd7-I2-Hag">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -350,6 +350,28 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sd7-I2-Hag" firstAttribute="leading" secondItem="HRV-xk-jE1" secondAttribute="leadingMargin" constant="-16" id="Ind-ht-hRF"/>
+                            <constraint firstItem="sd7-I2-Hag" firstAttribute="top" secondItem="bNg-F3-Xkc" secondAttribute="bottom" constant="-64" id="PYt-Fh-9o7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sd7-I2-Hag" secondAttribute="trailing" constant="-16" id="acb-1o-qhj"/>
+                            <constraint firstItem="Cxt-bq-bbX" firstAttribute="top" secondItem="sd7-I2-Hag" secondAttribute="bottom" id="uBK-kE-WF2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ind-ht-hRF"/>
+                                <exclude reference="PYt-Fh-9o7"/>
+                                <exclude reference="acb-1o-qhj"/>
+                                <exclude reference="uBK-kE-WF2"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Ind-ht-hRF"/>
+                                <include reference="PYt-Fh-9o7"/>
+                                <include reference="acb-1o-qhj"/>
+                                <include reference="uBK-kE-WF2"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="Vmv-hU-acT">
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="2tw-wl-Xbz">
@@ -364,14 +386,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7VD-k0-wlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="868" y="1304"/>
+            <point key="canvasLocation" x="1627.5" y="1377"/>
         </scene>
         <!--Facebook Friends-->
         <scene sceneID="BVY-8c-vA8">
             <objects>
-                <tableViewController id="3UX-w6-tqR" customClass="FacebookFriendsViewController" customModule="ForeignChatTests" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="3UX-w6-tqR" customClass="FacebookFriendsViewController" customModule="ForeignChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" id="8wy-OO-xwS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -397,7 +419,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jh0-4z-wxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1858" y="1956"/>
+            <point key="canvasLocation" x="3483.75" y="2066.1971830985913"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kBs-xH-aqx">
@@ -413,16 +435,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbX-EU-Evi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1406" y="1956"/>
+            <point key="canvasLocation" x="2636.25" y="2066.1971830985913"/>
         </scene>
     </scenes>
     <resources>
         <image name="icon_posts" width="16" height="16"/>
         <image name="profile_blank.png" width="70" height="70"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
